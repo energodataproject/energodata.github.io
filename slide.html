@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto:wght@100&display=swap"
+          rel="stylesheet"
+        />
+        <!---------------------CSS Style ------------------------->
+        <link rel="stylesheet" href="./styles/slide.css" />    
+    <title>Slide of table screen</title>
+</head>
+<body>
+    
+<div class="slideshow-container">
+    <div class="arrow_back-container">
+        <button class="arrow_left">
+            <a href="./main_page.html"
+              ><img src="./images/Arrow_1.svg" alt="arrow"
+            /></a>
+        </button>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="./images/Electro_energy.png" style="width:100%">
+      <div class="text">Сведения по балансу ЭЭ</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="./images/Warm_energy.png" style="width:100%">
+      <div class="text">Сведения по балансу тепловой энергии и о его изменениях, Гкал</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="./images/For_five_years.png" style="width:100%">
+      <div class="text">Сведения о расходах ЭЭ на цели внутреннего освещения за последние 5 лет</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="./images/General_energy.png" style="width:100%">
+        <div class="text">Общие сведения по заданиям (строениям, сооружениям)</div>
+      </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" style="background-color: rgba(225, 16, 16, 1);" onclick="currentSlide(1)"></span> 
+      <span class="dot" style="background-color:rgba(19, 77, 35, 1);" onclick="currentSlide(2)"></span> 
+      <span class="dot" style="background-color:rgba(147, 31, 157, 1);" onclick="currentSlide(3)"></span> 
+       <span class="dot" style="background-color: rgba(20, 19, 77, 1);" onclick="currentSlide(1)"></span> 
+    </div>
+
+   
+
+    
+    <script src="./js/Slide.js"></script>
+</body>
+</html>

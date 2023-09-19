@@ -21,54 +21,64 @@
   </head>
   <body>
     <header class="header_navbar">
-      <div class="navbar_logo">
-        <img src="./images/logo.svg" alt="logo" />
+      <div class="container">
+        <div class="navbar_logo">
+          <img src="./images/logo.svg" alt="logo" />
+        </div>
       </div>
     </header>
-    <sector class="mainpage">
-      <div class="mainpage_container">
-        <h1>Новый объект</h1>
-        <div class="content">
-          <button class="upload_btn">
-            <a
-              href="https://drive.google.com/file/d/1CMhpwNo9gc0Kg9dFMGBu-XwiAqNNDBtn/view?usp=sharing"
-              >Cкачать исполнителный файл и исходные данные</a
-            >
-          </button>
-          <br /><br />
-          <button class="upload_btn" onclick="uploadExcelFile()">
-            <a
-              href="https://drive.google.com/file/d/1ZNH9rCchUnReOwpU8aA-YvglLtu2FWc6/view?usp=sharing"
-              >Шаблон отчета ЭО</a
-            >
-          </button>
-          <div id="excelContent"></div>
-        </div>
-        <br />
-  
-        <!-- <input type="file" name="file-upload" id="upload"> -->
-  
-        <div class="mainpage_text">
-          <h6 class="title">Чтобы выгрузить отчет надо</h6>
-          <ul class="mainpage_paragraph">
-            <li>1. Открыть файл "Формирование_отчета_v4.3.11"</li>
-            <li>2. Там выбрать файл "Расчет опросной формы".</li>
-            <li>3. Выбрать файл "Шаблон отчета ЭО".</li>
-            <li>4. Нажать "Старт" и выбрать файл "ОФ_ПКТБ"</li>
-            <li>5. Дождаться завершения работы</li>
-          </ul>
-          <button class="arrow_left">
-            <a href="./account_page.html"
-              ><img src="./images/Arrow_1.svg" alt="arrow"
-            /></a>
-          </button>
-          <div class="color_line">
-            <img src="./images/color_line.png" alt="img">
+    <div class="mainpage">
+      <div class="container">
+        <div class="mainpage_content">
+          <h1>Новый объект</h1>
+          <div class="content">
+            <button class="upload_btn">
+              <a
+                href="https://drive.google.com/file/d/1CMhpwNo9gc0Kg9dFMGBu-XwiAqNNDBtn/view?usp=sharing"
+                >Cкачать исполнителный файл и исходные данные</a
+              >
+            </button>
+            <br /><br />
+            <button class="upload_btn" onclick="uploadExcelFile()">
+              <a
+                href="https://drive.google.com/file/d/1ZNH9rCchUnReOwpU8aA-YvglLtu2FWc6/view?usp=sharing"
+                >Шаблон отчета ЭО</a
+              >
+            </button>
+            <br/>
+
+            <button class="upload">
+              <a
+                href="./slide.html"
+                >Загрузить данные</a
+              >
+            </button>
+          </div>
+          <br />
+
+          <!-- <input type="file" name="file-upload" id="upload"> -->
+
+          <div class="mainpage_text">
+            <h6 class="title">Чтобы выгрузить отчет надо</h6>
+            <ul class="mainpage_paragraph">
+              <li>1. Открыть файл "Формирование_отчета_v4.3.11"</li>
+              <li>2. Там выбрать файл "Расчет опросной формы".</li>
+              <li>3. Выбрать файл "Шаблон отчета ЭО".</li>
+              <li>4. Нажать "Старт" и выбрать файл "ОФ_ПКТБ"</li>
+              <li>5. Дождаться завершения работы</li>
+            </ul>
+            <button class="arrow_left">
+              <a href="./account_page.html"
+                ><img src="./images/Arrow_1.svg" alt="arrow"
+              /></a>
+            </button>
+            <div class="color_line">
+              <img src="./images/color_line.png" alt="img" />
+            </div>
           </div>
         </div>
       </div>
-      
-    </sector>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.4/xlsx.full.min.js"></script>
     <script src="js/MainPage.js"></script>
   </body>

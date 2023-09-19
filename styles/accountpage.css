@@ -13,11 +13,24 @@ body {
   position: relative;
   text-align: right;
 }
+button.arrow_left {
+  font-weight: 400;
+  font-size: 20px;
+  margin-right: 2rem;
+  padding: 10px 25px;
+  border-radius: 15px;
+  border-color:rgba(20, 19, 76, 1);
+}
+
+button.arrow_left:hover{
+  color: whitesmoke;
+  background-color: rgba(20, 19, 76, 1);
+}
 
 button.create_file {
   font-weight: 400;
   font-size: 20px;
-  margin-right: 37.5rem;
+  margin-right: 20.5rem;
   padding: 10px 25px;
   border-radius: 15px;
   border-color:rgba(20, 19, 76, 1);

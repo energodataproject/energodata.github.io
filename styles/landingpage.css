@@ -202,8 +202,8 @@ img.image_1 {
 
 .steps_paragraph {
   width: 300px;
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 27px;
+  line-height: 30px;
   font-weight: 500;
   color: rgba(255, 255, 255, 1);
   text-align: center;
@@ -241,9 +241,9 @@ img.image_1 {
 
 .steps_paragraph-2 {
   font-weight: 400;
-  font-size: 30px;
+  font-size: 27px;
   line-height: 36px;
-  text-align: right;
+  text-align: center;
 }
 
 .bl-rectangle-2 {
@@ -258,7 +258,7 @@ img.image_1 {
 
 .steps_text-3 {
   width: 595px;
-  height: 406px;
+  height: 500px;
   box-sizing: border-box;
   border: 8px solid rgba(20, 19, 76, 1);
   padding: 30px;
@@ -288,9 +288,9 @@ img.image_1 {
 .steps_4_paragraph {
   width: 413px;
   height: 230px;
-  font-size: 30px;
+  font-size: 27px;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 33px;
   text-align: center;
   color: #fff;
 }

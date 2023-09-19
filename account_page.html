@@ -21,9 +21,14 @@
   </head>
   <body>
     <header class="navbar">
-      <div class="navbar_content container">
+      <div class="navbar_content">
         <div class="navbar_left"></div>
         <div class="navbar_right">
+          <div class="arrow_back-container">
+            <button class="arrow_left">
+                <a href="./landing_page.html">Главная Страница</a>
+            </button>
+        </div>
           <button class="create_file">
             <a href="./main_page.html">Создать Объект</a>
           </button>
@@ -104,6 +109,9 @@
           <p><span>Адрес:</span> Юг-2 №87</p>
           <p><span>Добавлен:</span> 17.08.2003</p>
           <p><span>Изменен:</span>17.08.2023</p>
+          <button class="btn_open_table" onclick="chooseExcelFile()">
+            Открыть таблицу
+          </button>
         </div>
         <button class="accordion">Energy Lab</button>
         <div class="panel">

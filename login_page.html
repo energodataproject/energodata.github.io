@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <!---------------------CSS Style ------------------------->
+    <link rel="stylesheet" href="./styles/singup.css" />
+    <!-------------------- Boxicons CSS ---------------------->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>LogIn</title>
+  </head>
+  <body>
+    <section class="container forms">
+      <div class="form login">
+        <div class="form-content">
+          <header><img src="./images/logo.svg" alt="" /></header>
+          <form class="form_login" id="login" action="#">
+            <!-- Error message -->
+            <div class="form__message form__message--error"></div>
+            <div class="field input-field">
+              <input
+                type="email"
+                id="email"
+                placeholder="Адрес электронной почты"
+                class="form__input"
+              />
+              <div class="form__input-error-message"></div>
+            </div>
+            <div class="field input-field">
+              <input
+                type="password"
+                id="password"
+                placeholder="Пароль"
+                class="form__input"
+              />
+              <i class="bx bx-hide eye-icon"></i>
+              <div class="form__input-error-message"></div>
+            </div>
+
+            <div class="checkbox_field">
+              <label for="remember-me"
+                ><input type="checkbox" id="remember" name="remember" />
+                Запомнить пароль</label
+              >
+            </div>
+
+            <div class="field button-field">
+              <button>Войти</button>
+            </div>
+            <div class="form-link">
+              <a href="#" class="forgot-pass"> Забыли пароль?</a>
+            </div>
+          </form>
+          <div class="form-link">
+            <span
+              >У вас нет аккаунта?
+              <a href="./signup_page.html" class="link signup-link"
+                >Создать аккаунт</a
+              ></span
+            >
+          </div>
+        </div>
+
+        <div class="media-options">
+          <a href="https://mail.google.com/" class="field google">
+            <img src="./images/google.png" alt="" class="google-img" />
+            <span>Создать с помощью</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/Login.js"></script>
+  </body>
+</html>
